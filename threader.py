@@ -5,20 +5,9 @@ from database import HostList, TitleList
 import eventlet
 import time
 
-eventlet.monkey_patch()
+# eventlet.monkey_patch()
 
-# lists of site that are crawled, add sites to this list if you'd like for them to be crawled
-# I removed the identifiers and trailing backslashes from the sites I added, you can if you want to, however, the program
-# should do automatically when adding them to the hosts database
-#TODO: Add this array to the config file
-hosts = ['https://cafe-tv.net', 'https://freedailyiptv.com', 'http://m3uliste.pw', 'https://list-iptv.com', 'http://freshiptv.com',
-     'http://iptvurllist.com', 'http://freeworldwideiptv.com', 'http://ramalin.com', 'http://i-ptv.blogspot.com',
-     'https://fluxustv.blogspot.com', 'https://www.iptvsource.com', 'https://iptvhits.blogspot.com', 'http://iptvurls.com',
-     'https://iptv4sat.com', 'https://gratisiptv.com', 'https://freeiptv.online', 'https://skyiptv.online',
-     'https://autoiptv.net']
 
-#TODO: Add this array to the config file
-titles = ["Fox", "Game of Thrones", "ABC", "HBO", "BBC", "A&E", "Disney", "Nickelodeon", "CNN"]
 
 host_list = HostList() # create an instance of the host list database
 title_list = TitleList() # create an instance of the title list database
@@ -87,11 +76,28 @@ def run_threads():
     for thread in threads: # once a timeout is reached
         host_list.update_running(thread.page, False) # set each the running status of the entry at each thread's page to False
 
+# lists of site that are crawled, add sites to this list if you'd like for them to be crawled
+# I removed the identifiers and trailing backslashes from the sites I added, you can if you want to, however, the program
+# should do automatically when adding them to the hosts database
+#TODO: Add this array to the config file
+#hosts = ['https://cafe-tv.net', 'https://freedailyiptv.com', 'http://m3uliste.pw', 'https://list-iptv.com', 'http://freshiptv.com',
+#     'http://iptvurllist.com', 'http://freeworldwideiptv.com', 'http://ramalin.com', 'http://i-ptv.blogspot.com',
+#     'https://fluxustv.blogspot.com', 'https://www.iptvsource.com', 'https://iptvhits.blogspot.com', 'http://iptvurls.com',
+#     'https://iptv4sat.com', 'https://gratisiptv.com', 'https://freeiptv.online', 'https://skyiptv.online',
+#     'https://autoiptv.net']
+
+hosts= ['https://cafe-tv.net']
+
+#TODO: Add this array to the config file
+titles = ["Fox", "Game of Thrones", "ABC", "HBO", "BBC", "A&E", "Disney", "Nickelodeon", "CNN"]
 
 if __name__ == '__main__':
     #host_list.reset_running() # uncomment this line and comment out the other lines to reset the running status of all hosts
     add_hosts_to_database()
     add_titles_to_database()
-    run_threads() # runs the threads
+    #run_threads() # runs the threads
+    sites = pull_down_from_database()
+    for site in hosts:
+        Crawler(site)
 
 

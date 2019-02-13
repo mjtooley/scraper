@@ -13,7 +13,7 @@ import hashlib
 import regex
 import eventlet
 
-eventlet.monkey_patch()
+# eventlet.monkey_patch()
 regex = regex.get()
 
 

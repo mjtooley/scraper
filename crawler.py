@@ -13,11 +13,14 @@ from urllib.parse import urlparse
 import datetime
 import eventlet
 
-eventlet.monkey_patch()
+# eventlet.monkey_patch()
 
 encodings = ['utf-8', 'latin-1', 'windows-1250', 'ascii']
 regex = regex.get()
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+
+
 
 
 class Crawler(object):

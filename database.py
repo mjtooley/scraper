@@ -14,7 +14,7 @@ class TitleList(object):
     def __init__(self):
         try:
             #TODO: Add the IP address of the database to a config file and pull it down instead of hardcoding it here
-            self._client = MongoClient(host='18.207.154.217', port=27017)
+            self._client = MongoClient(host='127.0.0.1', port=27017)
             # creates a client to run the database at on the specified server
         except ServerSelectionTimeoutError:
             raise ServerNotRunningError('MongoDB is not currently running on the host server. Try connecting to the host server and '
@@ -65,7 +65,7 @@ class HostList(object):
     def __init__(self):
         try:
             # TODO: Add the IP address of the database to a config file and pull it down instead of hardcoding it here
-            self._client = MongoClient(host='18.207.154.217', port=27017)
+            self._client = MongoClient(host='127.0.0.1', port=27017)
             # creates a client to run the database at on the specified server
         except ServerSelectionTimeoutError:
             raise ServerNotRunningError('MongoDB is not currently running on the host server. Try connecting to the host server and '
@@ -148,7 +148,7 @@ class Streamer(object):
         self._name = 'streams'
         try:
             # TODO: Add the IP address of the database to a config file and pull it down instead of hardcoding it here
-            self._client = MongoClient(host='18.207.154.217', port=27017)
+            self._client = MongoClient(host='127.0.0.1', port=27017)
             # creates a client to run the database at on the specified server
         except ServerSelectionTimeoutError:
             raise ServerNotRunningError('MongoDB is not currently running on the host server. Try connecting to the host server and '

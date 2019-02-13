@@ -4,9 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/crawler.py" line="54" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b631dec-1be7-40e0-aa9e-bac8b079a59f" name="Default" comment="" />
+    <list default="true" id="2b631dec-1be7-40e0-aa9e-bac8b079a59f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scraper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scraper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requester.py" beforeDir="false" afterPath="$PROJECT_DIR$/requester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threader.py" beforeDir="false" afterPath="$PROJECT_DIR$/threader.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,10 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_cases.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_cases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16354">
+            <state relative-caret-position="355">
               <caret line="972" column="18" selection-start-line="972" selection-start-column="18" selection-end-line="972" selection-end-column="18" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -62,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="208" column="59" lean-forward="true" selection-start-line="208" selection-start-column="59" selection-end-line="208" selection-end-column="59" />
+            <state relative-caret-position="190">
+              <caret line="150" column="54" selection-start-line="150" selection-start-column="54" selection-end-line="150" selection-end-column="54" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -74,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crawler.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="141" column="86" selection-start-line="141" selection-start-column="86" selection-end-line="141" selection-end-column="86" />
+            <state relative-caret-position="-1875">
+              <caret line="37" column="97" lean-forward="true" selection-start-line="37" selection-start-column="97" selection-end-line="37" selection-end-column="97" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -86,32 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="threader.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/threader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-              <folding>
-                <element signature="e#5#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exceptions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exceptions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requester.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requester.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+            <state relative-caret-position="522">
+              <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -119,20 +106,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regex.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requester.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="180">
               <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="url_mutator.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/url_mutator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -144,9 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>inventory</find>
-      <find>autoipt</find>
-      <find>test</find>
       <find>ignore</find>
       <find>um.remove_id</find>
       <find>um.</find>
@@ -174,6 +170,9 @@
       <find>playable_</find>
       <find>playable_url</find>
       <find>print</find>
+      <find>18.207</find>
+      <find>stream_status</find>
+      <find>playable</find>
     </findStrings>
     <replaceStrings>
       <replace>parent</replace>
@@ -207,6 +206,12 @@
       <replace>self._collection</replace>
       <replace>requester.remove_id</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -250,9 +255,9 @@
         <option value="$PROJECT_DIR$/url_mutator.py" />
         <option value="$PROJECT_DIR$/test_cases.py" />
         <option value="$PROJECT_DIR$/regex.py" />
-        <option value="$PROJECT_DIR$/requester.py" />
-        <option value="$PROJECT_DIR$/crawler.py" />
         <option value="$PROJECT_DIR$/database.py" />
+        <option value="$PROJECT_DIR$/crawler.py" />
+        <option value="$PROJECT_DIR$/requester.py" />
         <option value="$PROJECT_DIR$/threader.py" />
       </list>
     </option>
@@ -266,17 +271,30 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2008" />
-    <option name="y" value="-20" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="433" />
+    <option name="y" value="41" />
+    <option name="width" value="1395" />
+    <option name="height" value="1211" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scraper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/pharvie/PycharmProjects/scraper/threader.py" />
@@ -317,6 +335,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scraper" />
@@ -336,6 +357,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="requester" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scraper" />
@@ -355,6 +379,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="test_cases" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scraper" />
@@ -374,6 +401,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="threader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scraper" />
@@ -382,9 +412,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -393,6 +423,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.threader" />
@@ -425,89 +458,80 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="433" y="41" width="1395" height="1211" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50104165" side_tool="true" weight="0.49734324" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49895832" visible="true" weight="0.48459086" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32943678" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.10520833" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.4546875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22740525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.3669131" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3974122" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32943678" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50104165" side_tool="true" weight="0.49734324" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.4546875" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/crawler.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/threader.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/threader.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/threader.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/namer.py" />
     <entry file="file://$PROJECT_DIR$/IPTV Arabic M3u Playlist Update 13-12-2017.m3u" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/zipfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28033">
-          <caret line="1658" selection-start-line="1658" selection-end-line="1658" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python37-32/Lib/zipfile.py" />
     <entry file="file://$PROJECT_DIR$/opener.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="916" selection-start-line="916" selection-end-line="916" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python37/Lib/threading.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python37/Lib/re.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/__init__.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/__init__.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/connectionpool.py" />
     <entry file="file://$PROJECT_DIR$/my_queue.py" />
-    <entry file="file://$PROJECT_DIR$/learner.py" />
     <entry file="file://$PROJECT_DIR$/selenium.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/framework/ops.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/contextlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/contextlib.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/tensorflow/python/ops/variable_scope.py" />
     <entry file="file://$PROJECT_DIR$/plotter.py" />
-    <entry file="file://$PROJECT_DIR$/learner.py" />
     <entry file="file://$PROJECT_DIR$/features.py" />
     <entry file="file://$PROJECT_DIR$/path_learner.py" />
     <entry file="file://$PROJECT_DIR$/trainer.py" />
@@ -595,13 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/re.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/outcomes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -616,9 +634,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/threading.py" />
+    <entry file="file://$PROJECT_DIR$/regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="150" column="54" selection-start-line="150" selection-start-column="54" selection-end-line="150" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_cases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16354">
+        <state relative-caret-position="355">
           <caret line="972" column="18" selection-start-line="972" selection-start-column="18" selection-end-line="972" selection-end-column="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -626,17 +662,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/threading.py">
+    <entry file="file:///usr/lib/python3.6/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="922" selection-start-line="922" selection-end-line="922" />
+        <state relative-caret-position="-2404">
+          <caret line="915" selection-start-line="915" selection-end-line="915" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/url_mutator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="141" column="86" selection-start-line="141" selection-start-column="86" selection-end-line="141" selection-end-column="86" />
+        <state relative-caret-position="-1875">
+          <caret line="37" column="97" lean-forward="true" selection-start-line="37" selection-start-column="97" selection-end-line="37" selection-end-column="97" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -645,54 +701,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requester.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/url_mutator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="208" column="59" lean-forward="true" selection-start-line="208" selection-start-column="59" selection-end-line="208" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/threader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        <state relative-caret-position="522">
+          <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
           <folding>
-            <element signature="e#5#29#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
